@@ -7,7 +7,7 @@ def main():
     correct_answer = calculate_correct_answer(number1,number2)
     print('\t',number1,'\n+\t',number2)
     question = int(input('Enter the answer : '))
-    answer = check_answer(question,correct_answer)
+    check_answer(question,correct_answer)
 
 def calculate_correct_answer(num1,num2):
     correct_answer = num1 + num2
