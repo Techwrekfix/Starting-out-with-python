@@ -2,7 +2,6 @@
 #a user to select maintenance services
 
 import tkinter
-import tkinter.messagebox
 
 class MaintenanceService:
     def __init__(self):
